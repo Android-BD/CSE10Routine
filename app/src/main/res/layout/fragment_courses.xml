@@ -1,0 +1,240 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minhazulhaque.apps.cse10routine.Courses">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="Course Code" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="Course Name" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="Credit" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:gravity="center"
+                android:text="CSE 700" />
+
+            <TextView
+                android:gravity="left"
+                android:text="Project and Theses-I" />
+
+            <TextView
+                android:gravity="center"
+                android:text="1.50" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="CSE 701" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="left"
+                android:text="Complier Design" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="3.00" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="CSE 702" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="left"
+                android:text="Sessional based on CSE 701" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="0.75" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:background="#65FEFE"
+                android:gravity="center"
+                android:text="CSE 703" />
+
+            <TextView
+                android:background="#65FEFE"
+                android:gravity="left"
+                android:text="VLSI Design" />
+
+            <TextView
+                android:background="#65FEFE"
+                android:gravity="center"
+                android:text="3.00" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="CSE 705" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="left"
+                android:text="Information System Analysis &amp; Design" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="3.00" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="CSE 706" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="left"
+                android:text="Sessional based on CSE 705" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="0.75" />
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="CSE 707" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="left"
+                android:text="Computer Network" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="3.00" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="CSE 708" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="left"
+                android:text="Sessional based on CSE 707" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="0.75" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="CSE 713" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="left"
+                android:text="Digital Signal Processing" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="3.00" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="CSE 714" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="left"
+                android:text="Sessional based on CSE 713" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="0.75" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:background="#C1C1C1" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="right"
+                android:text="Total" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="19.50" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,218 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.minhazulhaque.apps.cse10routine.Routine">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:stretchColumns="1,2,3,4,5">
+
+        <TableRow>
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="Day/Time" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="0850-0940" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="0940-1030" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="1050-1140" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="1140-1230" />
+
+            <TextView
+                android:background="#C1C1C1"
+                android:gravity="center"
+                android:text="1230-1320" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="\nA\n" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="CSE 707\nBP\nSeminar" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="CSE 713\nMAH/SA\nSeminar" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="CSE 701\nJR\n102" />
+
+
+            <TextView
+                android:background="#65FEFE"
+                android:gravity="center"
+                android:layout_span="2"
+                android:text="CSE 703\nEKH\n102" />
+
+            <TextView android:layout_span="2" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="\nB\n" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="CSE 701\nJR\n102" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="CSE 707\nBP\n102" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="CSE 705\nMRI\nSeminar" />
+
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="CSE 713\nSA\n102" />
+
+            <TextView
+                android:background="#65FEFE"
+                android:gravity="center"
+                android:text="CSE 703\nEKH\n102" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="\nC\n" />
+
+            <TextView />
+
+            <TextView />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FECCCB"
+                    android:gravity="center"
+                    android:text="CSE 706 MRI+RT @ NW" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#66CC9A"
+                    android:gravity="center"
+                    android:text="CSE 708 FM+BP @ OS" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="\nD\n" />
+
+            <TextView android:layout_span="2" />
+
+            <TextView
+                android:background="#FEFF99"
+                android:gravity="center"
+                android:text="CSE 701\nJR\n102" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="CSE 705\nMRI\n102" />
+
+            <TextView
+                android:background="#00CCFF"
+                android:gravity="center"
+                android:text="CSE 713\nMAH/SA\nSeminar" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="\nE\n" />
+
+            <TextView
+                android:background="#FECCCB"
+                android:gravity="center"
+                android:text="CSE 705\nMRI\nSeminar" />
+
+            <TextView
+                android:background="#66CC9A"
+                android:gravity="center"
+                android:text="CSE 707\nBP\n102" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_span="3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#FEFF99"
+                    android:gravity="center"
+                    android:text="CSE 702 JR+EKH @ NW" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00CCFF"
+                    android:gravity="center"
+                    android:text="CSE 714 MAH+SA @ SW-2" />
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>
